@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bartosz Górski | iOS Developer</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "San Francisco", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #1c1c1e;
+        }
+
+        header {
+            padding: 2rem 2rem 0rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 20px;
+        }
+
+        section a {
+            font-weight: 600;
+            text-decoration: underline;
+            color: #1c1c1e;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            max-width: 800px;
+        }
+
+        .portrait {
+            width: 150px; /* Adjust size as necessary */
+            height: 150px;
+            margin: 2rem; /* Space between image and text */
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .email {
+            text-decoration: none;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills ul li {
+            background-color: #f2f2f7;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+
+        .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .projects ul li {
+            background-color: #f2f2f7;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bartosz Górski</h1>
+        <p>iOS Developer | Swift Enthusiast</p>
+    </header>
+
+    <section class="about">
+        <img src="portrait.png" alt="Bartosz Górski portrait picure" class="portrait">
+        <div class="about-text">
+            <p>Hi 👋<br>I'm <b>Bartosz Górski</b>, the developer of an iOS app <a href="https://mnthly.app" target="_blank">MNTHLY</a>.</p>
+            <p>I'm focused on building smooth and responsive apps with SwiftUI. I specialize in CoreData with iCloud Sync, In-App Purchases, and ensuring top-quality user experiences on Apple platforms.</p>
+            <p>Feel free to contact me <a href="mailto:dev@bagorski.com" class="email">dev@bagorski.com</a></p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>SwiftUI</li>
+            <li>CoreData with iCloud Sync</li>
+            <li>In-App Purchases</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://mnthly.app" target="_blank">MNTHLY</a> - A powerful bill-tracking iOS app for managing your finances efficiently.</li>
+        </ul>
+    </section>
+</body>
+</html>
